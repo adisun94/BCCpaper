@@ -6,13 +6,13 @@ from app import app
 from app import server
 
 # Connect to your app pages
-from apps import bcct, valid
+from apps import screen, valid
 
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     html.Div([
-        dcc.Link('Screening      |      ', href='/apps/bcct'),
+        dcc.Link('Screening      |      ', href='/apps/screen'),
         dcc.Link('Validation', href='/apps/valid'),
         ], className="row"),
     html.Div(id='page-content', children=[])
@@ -22,8 +22,8 @@ app.layout = html.Div([
 @app.callback(Output('page-content', 'children'),
         [Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/apps/bcct':
-        return bcct.layout
+    if pathname == '/apps/screen':
+        return screen.layout
     if pathname == '/apps/valid':
         return valid.layout
     else:
