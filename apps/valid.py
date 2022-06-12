@@ -63,12 +63,13 @@ layout = html.Div([
 def update_image(slctd_row_indices):
     o1='Oxide phase diagram for alloy '+str(slctd_row_indices)
 
-    img = np.array(Image.open('AdityaSundar.jpg'))
+    img = np.array(Image.open(DATA_PATH.joinpath('../data/PD1.jpg')))
     fig = px.imshow(img, color_continuous_scale="gray")
     fig.update_layout(coloraxis_showscale=False)
     fig.update_xaxes(showticklabels=False)
     fig.update_yaxes(showticklabels=False)
     fig.update_layout({'paper_bgcolor': 'rgb(255,255,240)'})
+
 
     return o1, fig
 
