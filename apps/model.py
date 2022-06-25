@@ -14,7 +14,7 @@ n_steps=5
 
 layout = html.Div([
         dcc.Markdown('''
-                    #### Hierarchical screening workflow; original publication accessible here. This project was sponsored by NSF.'''),
+                    #### Hierarchical screening workflow; manuscript under review. This project was sponsored by NSF.'''),
         html.Div([html.Button("Step {}".format(i), id=str(i)) for i in range(1,n_steps+1)] + [html.Div(id="step")]),
         dcc.Graph(id='pyramid', figure={})
         ])

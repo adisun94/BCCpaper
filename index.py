@@ -30,7 +30,7 @@ def display_page(pathname):
     if pathname == '/apps/valid':
         return valid.layout
     else:
-        return "404 Page Error! Please choose a link"
+        return "Please choose a link"
 
 
 if __name__ == '__main__':
