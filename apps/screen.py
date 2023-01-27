@@ -21,7 +21,7 @@ df.rename(columns={'surf':'surf (J/m\u00b2)','gsf':'usf (J/m\u00b2)'},inplace=Tr
 
 layout = html.Div([
     dcc.Markdown('''
-        #### 1184 quaternary alloy compositions screened using the hierarchical model; manuscript udner review. This project was sponsored by NSF and used resources at XSEDE. All phase diagrams calculated using the [TCHEA4](https://thermocalc.com/products/databases/high-entropy-alloys/) database using the [TC-Python API](https://thermocalc.com/products/software-development-kits/tc-python/)'''),
+        #### 1184 quaternary alloy compositions screened using the hierarchical model; paper published in [MRS Communications](https://link.springer.com/article/10.1557/s43579-022-00241-1). This project was sponsored by NSF and used resources at XSEDE. All phase diagrams calculated using the [TCHEA4](https://thermocalc.com/products/databases/high-entropy-alloys/) database using the [TC-Python API](https://thermocalc.com/products/software-development-kits/tc-python/)'''),
     html.Br(),
     dash_table.DataTable(
         id='table-screening',

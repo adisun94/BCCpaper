@@ -17,7 +17,7 @@ df.insert(0,'id',list(range(10)))
 
 layout = html.Div([
     dcc.Markdown('''
-                #### 10 quaternary alloy compositions validated using DFT and CALPHAD; manuscript under review. This project was sponsored by NSF and used resources at XSEDE. All phase diagrams calculated using the [TCHEA4](https://thermocalc.com/products/databases/high-entropy-alloys/) and [SSUB6](https://thermocalc.com/products/databases/general-alloys-and-pure-substances/) databases.'''),
+                #### 10 quaternary alloy compositions validated using DFT and CALPHAD; paper published in [MRS Communications](https://link.springer.com/article/10.1557/s43579-022-00241-1). This project was sponsored by NSF and used resources at XSEDE. All phase diagrams calculated using the [TCHEA4](https://thermocalc.com/products/databases/high-entropy-alloys/) and [SSUB6](https://thermocalc.com/products/databases/general-alloys-and-pure-substances/) databases.'''),
     dash_table.DataTable(
         id='table-validation',
         columns=[
