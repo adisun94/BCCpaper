@@ -1,11 +1,13 @@
 
-![alt text for screen readers](../images/features.png)
+![alt text for screen readers](../images/features.png = 50x50)
 List of descriptors to model the target properties. The table lists the set of descriptors u<sub>p</sub> based on alloy/metal properties p in its second column and the corresponding feature parameters in its third column, which include the feature parameters ( p<sub>ij</sub><sup>BCC/B2</sup> and p<sub>ij</sub><sup>FCC/L10</sup>) of the first-nearest-neighbor bond between element i and j and the element properties ( pi ). xi/xj is the mole fraction of element i/j in the alloys.
 
 ![alt text for screen readers](../images/TargetVSDesc.png)
 Distribution of target properties with few descriptors. The descriptors are listed in the table above.
 
-<img src="../iamges/LRusf.png" alt="LR" width="200"/>
+![](../images/LRusf.png)
+![](../images/LASSOusf.png)
+![](../images/GBRusf.png)
 Linear regression and LASSO models result in poor predictive accuracies.
 
 ![alt text for screen readers](../images/RFR.png)
