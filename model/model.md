@@ -5,6 +5,7 @@ List of descriptors to model the target properties. The table lists the set of d
 ![alt text for screen readers](../images/TargetVSDesc.png)
 Distribution of target properties with few descriptors. The descriptors are listed in the table above.
 
+<img src="../iamges/LRusf.png" alt="LR" width="200"/>
 Linear regression and LASSO models result in poor predictive accuracies.
 
 ![alt text for screen readers](../images/RFR.png)
