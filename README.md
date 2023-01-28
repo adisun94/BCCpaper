@@ -7,6 +7,8 @@ This repository is used to build a dashboard, which contains 1184 alloys screend
 
 The app can be launched locally by 'python3.10 index.py'
 
+aw
+
 ## Application demo
 https://user-images.githubusercontent.com/43352171/215001597-43157ce5-453d-4c3f-8321-26b735b3225e.mp4
 
