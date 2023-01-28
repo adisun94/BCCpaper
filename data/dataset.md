@@ -1,6 +1,6 @@
 ![alt text for screen readers](../images/data1.png)
 
-## Distribution of alloy chemistries, which was obtained from density functional theory calculations. Distribution of alloys in the dataset. (a) Histogram showing binary, ternary and quaternary alloys. Histograms showing the occurance of each element in (b) binary and (c) quaternary alloys.
+Distribution of alloy chemistries, which was obtained from density functional theory calculations. Distribution of alloys in the dataset. (a) Histogram showing binary, ternary and quaternary alloys. Histograms showing the occurance of each element in (b) binary and (c) quaternary alloys.
 
 ![alt text for screen readers](../images/data2.png)
 
