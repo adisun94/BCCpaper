@@ -1,7 +1,7 @@
 
 ![alt text for screen readers](../images/features.png)
 
-List of descriptors to model the target properties. The table lists the set of descriptors u<sub>p</sub> based on alloy/metal properties p in its second column and the corresponding feature parameters in its third column, which include the feature parameters ( p<sub>ij</sub><sup>BCC/B2</sup> and p<sub>ij</sub><sup>FCC/L10</sup>) of the first-nearest-neighbor bond between element i and j and the element properties ( pi ). xi/xj is the mole fraction of element i/j in the alloys.
+List of descriptors to model the target properties. The table lists the set of descriptors u<sub>p</sub> based on alloy/metal properties p in its second column and the corresponding feature parameters in its third column, which include the feature parameters ( p<sub>ij</sub><sup>BCC/B2</sup> and p<sub>ij</sub><sup>FCC/L10</sup>) of the first-nearest-neighbor bond between element i and j and the element properties ( p<sub>i</sub> ). x<sub>i</sub>/x<sub>j</sub> is the mole fraction of element i/j in the alloys.
 
 ![alt text for screen readers](../images/TargetVSDesc.png)
 
